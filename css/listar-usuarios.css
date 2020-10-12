@@ -1,0 +1,14 @@
+.a{
+    font-size: xx-large;
+    font-family: 'Love Ya Like A Sister', bold;
+    text-align: center;
+    background-image: url(../images/veterinaria.png);;
+}
+
+.columna {
+  column-rule: black solid 2px;
+  columns: 4;
+  text-align: center;
+  padding: 5em;
+}
+

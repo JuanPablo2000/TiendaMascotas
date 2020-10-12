@@ -1,0 +1,46 @@
+.a{
+    font-size: xx-large;
+    font-family: 'Love Ya Like A Sister', bold;
+}
+
+.b{
+   font-size: x-large;
+   font-family: 'Love Ya Like A Sister', bold;
+}
+
+.c{
+   font-size: medium;
+   font-family: 'Love Ya Like A Sister', bold;
+}
+
+.centro {
+  height: 630px;
+  width: 1330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+ background-image:url(../images/3027351.jpg);
+ background-size: cover;
+ background-position: left;
+}
+
+.hijo {
+  background: #ffffff;
+  border: 5px solid #ffffff;
+  height: 580px;
+  width: 550px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  
+}
+
+.button {
+    border-radius: 4px;
+    height: 35px;
+    width: 170px;
+}
+

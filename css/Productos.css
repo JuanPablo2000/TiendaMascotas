@@ -1,0 +1,56 @@
+h2{
+  text-align: center;
+  background-image: url(../images/veterinaria.png);;
+}
+.separa{
+    display: flex;
+    background-color: #CEF6F5;
+}
+
+.caja2{
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+footer{
+  background:#2f2f2f;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 65px;
+}
+footer img{
+  margin:0 40px;
+  transform: rotate(0);
+  transition: 0.4s;
+}
+footer img:hover{
+  transform: rotate(360deg);
+  transition: 0.4s;
+}
+footer .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer p{
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.b{
+   font-size: 55px;
+   font-family: 'Love Ya Like A Sister', bold;
+}
+
+.contenedorP {
+    height: 100%;
+     min-height: 50%;
+    background-image: url(../img/dog.jpg);
+    background-size: cover;
+ background-position: left;
+}

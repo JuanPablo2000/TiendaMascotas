@@ -1,0 +1,78 @@
+body{
+    min-height: 100%;
+ margin: 0;
+ padding: 0;
+    background:url(../images/mascota.jpg);
+    background-size: cover;
+    font-family: 'McLaren', cursive;
+}
+h1{
+    margin: 65px 0;
+    text-align: center;
+}
+.bloque1{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.bloque1 p,select{
+    width: 20%;
+    color: #000000;
+}
+.bloque2{
+     display: flex;
+    justify-content: center;
+    width: 90%;
+   margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.bloque2 p{
+    width: 20%;
+    color: #000000;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+input[type="text"],input[type="password"],input[type="tel"],input[type="email"],select{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: 'McLaren', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+input[type="submit"]{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'McLaren', cursive;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+input[type="submit"]:hover,input[type="submit"]:focus{
+ background: #ff5722;
+ transition: 0.2s ease;
+}
